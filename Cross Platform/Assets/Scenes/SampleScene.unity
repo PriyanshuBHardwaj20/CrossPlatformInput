@@ -457,6 +457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  rotationSpeed: 200
+  groundCheckDistance: 0.1
 --- !u!136 &772016046
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -480,18 +482,6 @@ CapsuleCollider:
   m_Height: 1.8416493
   m_Direction: 1
   m_Center: {x: 0, y: 0.9732276, z: 0}
---- !u!114 &772016047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772016040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3674a78c8c244a7428b148cedeb9eb7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &772016050
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -588,9 +578,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 772016046}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 81bb9eea30387e442899949a80011e55, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 772016047}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 81bb9eea30387e442899949a80011e55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 772016050}
