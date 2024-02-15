@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     int isJumpingHash;
     bool isGrounded;
 
-    public float rotationSpeed=200;
+    public float rotationSpeed = 200;
 
     PlayerInputActions _input;
     Rigidbody _rigidbody;
